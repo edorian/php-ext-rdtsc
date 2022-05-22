@@ -1,0 +1,11 @@
+build/
+*.cache/
+.libs/
+run-tests.php
+tests/
+Makefile*
+config*
+*.la
+*.lo
+libtool
+modules/

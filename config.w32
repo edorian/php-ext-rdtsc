@@ -1,0 +1,7 @@
+ARG_ENABLE('rdtsc', 'rdtsc support', 'no');
+
+if (PHP_RDTSC != 'no') {
+	AC_DEFINE('HAVE_RDTSC', 1, 'rdtsc support enabled');
+
+	EXTENSION('rdtsc', 'rdtsc.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
