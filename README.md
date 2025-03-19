@@ -1,4 +1,4 @@
-# php-ffi-rdtsc
+# php-ext-rdtsc
 Expose the `__rdtsc` CPU cycle counter to user-land using a php extension
 
 # Requirements
